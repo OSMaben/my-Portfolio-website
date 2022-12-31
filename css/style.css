@@ -9680,3 +9680,14 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+.pre-loader{
+background: #1c1b1b url(../images/loader.gif)no-repeat center center;
+width: 100%;
+height: 100vh;
+z-index: 99999999999999999999;
+position: fixed;
+background-size:20%
+}
