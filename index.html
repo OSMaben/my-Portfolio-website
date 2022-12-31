@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   
-   <meta charset="UTF-8">
+    <title>Oussma ben | web designer</title>
+		<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
@@ -22,14 +21,14 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-  <title>Oussama ben | web designer</title>
   </head>
   <body>
-	  
+	  <div class="pre-loader">
+		</div>
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">OSMben</a>
+	      <a class="navbar-brand" href="index.html">OSM ben</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> 
 	      </button>
@@ -49,7 +48,7 @@
 	  </nav>
 	  <section id="home-section" class="hero">
 		  <div class="home-slider  owl-carousel">
-	<div class="slider-item ">
+	      <!-- <div class="slider-item ">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
@@ -66,13 +65,13 @@
 		          </div>
 	        	</div>
 	        </div>
-	      </div> 
+	      </div> -->
 
 	      <div class="slider-item">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -584,7 +583,6 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-
             <p>
   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" ></i> by <a href="https://uknoow.me" target="_blank">OSM ben</a>
   </p>
@@ -611,6 +609,17 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
-    
+	 <script>
+	 
+			var loader = document.querySelector('.pre-loader');
+
+			window.addEventListener('load',()=>{
+				loader.style.display='none';
+			})
+	 
+	 </script>
+
+
+
   </body>
 </html>
