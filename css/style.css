@@ -464,9 +464,8 @@ pre {
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; }
-    .pre-loader{
-      top: -19rem;
-    }
+    
+
     }
 
 .container-fluid {
@@ -1016,9 +1015,7 @@ pre {
     margin-left: 83.33333%; }
   .offset-md-11 {
     margin-left: 91.66667%; }
-  .pre-loader{
-    top:-19rem
-  }
+  
   }
 
 @media (min-width: 992px) {
@@ -1560,9 +1557,7 @@ pre {
     -webkit-overflow-scrolling: touch; }
     .table-responsive-sm > .table-bordered {
       border: 0; } 
-    .pre-loader img{
-      top:-12rem;
-    }
+   
     
     }
 
