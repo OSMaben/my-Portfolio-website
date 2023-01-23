@@ -22,8 +22,12 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-	 
-	  
+	  <div class="pre-loader">
+			<img src="images/loader.gif" alt="preloager">
+		</div>
+		
+		
+
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html">OSM ben</a>
@@ -43,14 +47,15 @@
 	        </ul>
 	      </div>
 	    </div>
-	  </nav>
+		</nav>
+		
 	  <section id="home-section" class="hero">
 		  <div class="home-slider  owl-carousel">
 	      <div class="slider-item ">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.webp);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.webp);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -84,7 +89,7 @@
 	      </div>
 	    </div>
     </section>
-
+	<!-- ABOUT -->
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
     		<div class="row d-flex">
@@ -124,9 +129,7 @@
         </div>
     	</div>
     </section>
-
-   
-
+	<!--Services  -->
     <section class="ftco-section" id="services-section">
     	<div class="container">
     		<div class="row justify-content-center py-5 mt-5">
@@ -183,8 +186,7 @@
 				</div>
     	</div>
     </section>
-
-		
+	<!-- SKILLS -->
 		<section class="ftco-section" id="skills-section">
 			<div class="container">
 				<div class="row justify-content-center pb-5">
@@ -264,8 +266,7 @@
 				</div>
 			</div>
 		</section>
- 
-
+	<!-- Project -->
     <section class="ftco-section ftco-project" id="projects-section">
     	<div class="container">
     		<div class="row justify-content-center pb-5">
@@ -337,8 +338,7 @@
     		</div>
     	</div>
     </section>
-
-
+	<!-- Blog -->
     <section class="ftco-section" id="blog-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
@@ -404,7 +404,7 @@
         </div>
       </div>
     </section>
-
+	<!-- Counter -->
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
     	<div class="container">
 				<div class="row d-md-flex align-items-center">
@@ -436,7 +436,6 @@
         </div>
       </div>
     </section>
-
     <section class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -448,7 +447,7 @@
 				</div>
 			</div>
 		</section>
-
+	<!-- Counter -->
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
@@ -500,24 +499,25 @@
 
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
-            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+            <form  action="https://formsubmit.co/githubosm@gmail.com" method="POST" class="bg-light p-4 p-md-5 contact-form">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name" required>
+                <input type="text" class="form-control" name="Full Name" placeholder="Your Name" required>
               </div>
               <div class="form-group">
-                <input type="Email" class="form-control" placeholder="Your Email"required>
+                <input type="Email" name="Email" class="form-control" placeholder="Your Email"required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject"required>
+                <input type="text" name="Subject" class="form-control" placeholder="Subject"required>
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+                <textarea name="Message" id=""  cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           
+
           </div>
 
           <div class="col-md-6 d-flex">
@@ -526,8 +526,7 @@
         </div>
       </div>
     </section>
-		
-
+		<!--Footer  -->
     <footer class="ftco-footer ftco-section">
       <div class="container">
         <div class="row mb-5">
